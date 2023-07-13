@@ -8,7 +8,7 @@ def search_pdf_files():
     # Get the search string and folder path
     search_string = entry.get()
     folder_path = folder_entry.get()
-#hello world
+#hello world3
     if not search_string or not folder_path:
         messagebox.showwarning("Warning", "Please enter a search string and folder path.")
         return
